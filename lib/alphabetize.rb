@@ -3,7 +3,7 @@ def alphabetize(arr)
   
   arr.sort_by do |phrase|
     #puts sentence
-    phrase.split("").map do |character|
+    phrase.split("").map do |letter|
       e_alphabet.index(character)
     end
   end
